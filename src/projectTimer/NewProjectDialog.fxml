@@ -8,6 +8,7 @@
     <headerText>
         Fill in the information for the new project
     </headerText>
+<!--    THIS IS THE INFORMATION THAT WILL BE SHOWN WITHIN EACH ACCORDION SECTION -->
     <content>
         <GridPane vgap="10" hgap="10">
             <Label text="Project Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
