@@ -8,6 +8,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import projectTimer.projectData.Project;
 
+// Dialog Window to gather new Project information
+
 public class NewProjectDialogController {
     public TextField projectNameField;
     public TextField minutesSpentField;
