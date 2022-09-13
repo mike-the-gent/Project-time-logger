@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<!--<?import javafx.scene.control.*?>-->
+
+<fx:root type="javafx.scene.control.TitledPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <!--    <TitledPane fx:controller="projectTimer.ProjectAccordionController"  xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" >-->
+    <GridPane hgap="10.0" vgap="10.0">
+        <Text text="Name of project : " GridPane.columnIndex="0" GridPane.rowIndex="0" />        <Text fx:id="nameOfNewProject" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Text text="Minutes Spent so far : " GridPane.columnIndex="0" GridPane.rowIndex="1" />  <Text fx:id="minutesSpentOnNewProject" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Text text="Price quoted :            £" GridPane.columnIndex="0" GridPane.rowIndex="2" />    <Text fx:id="priceQuotedForNewProject" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Text text="Hourly rate :               £" GridPane.columnIndex="0" GridPane.rowIndex="3" />    <Text fx:id="hourlyRateCalculated" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <Button fx:id="removeButton" text="Remove" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+
+        <Button fx:id="timeOn" text="Time on" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+        <Button fx:id="timeOff" text="time off" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+
+        <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+        </padding>
+        <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+        </rowConstraints>
+    </GridPane>
+    <!--    </TitledPane>-->
+</fx:root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+<project>
+	<project_name>Bolney Wine - Tour</project_name>
+	<minutes_spent>0</minutes_spent>
+	<price_quoted>0.0</price_quoted>
+</project>
+<project>
+	<project_name>Crew cab Coffee</project_name>
+	<minutes_spent>0</minutes_spent>
+	<price_quoted>0.0</price_quoted>
+</project>
+<project>
+	<project_name>ECE - SHoreham Port</project_name>
+	<minutes_spent>1</minutes_spent>
+	<price_quoted>500.0</price_quoted>
+</project>
+<project>
+	<project_name>VW Heritage - June</project_name>
+	<minutes_spent>592</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+</projects>

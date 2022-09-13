@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+<BorderPane fx:id="mainPanel" fx:controller="projectTimer.Controller"
+            xmlns:fx="http://javafx.com/fxml"
+
+            maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="600.0" >
+
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="Project Menu">
+                    <items>
+                        <MenuItem text="New..." onAction="#showAddProjectDialog"/>
+                    </items>
+
+                    <items>
+                        <MenuItem text="Edit..." onAction="#showEditProjectDialog" />
+                    </items>
+                    <!--                  PRINT FOR MY USE ONLY TO LOCATED ARRAY INDEX-->
+                    <items>
+                        <MenuItem text="Print Project List" onAction="#onPrint" />
+                    </items>
+                    <items>
+                        <MenuItem text="Delete" onAction="#onDeleteAction" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+
+    <left >
+        <StackPane   alignment="TOP_LEFT" xmlns="http://javafx.com/javafx/16"
+                     xmlns:fx="http://javafx.com/fxml/1">
+            <Group  StackPane.alignment="TOP_LEFT">
+                <VBox VBox.vgrow="ALWAYS" >
+
+                    <Accordion fx:id="accordion"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  prefWidth="${mainPanel.width}" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal">
+                        <panes>
+
+
+                            <!--THIS IS WHERE INNER ACCORDION CREATES PANES-->
+
+                        </panes>
+                    </Accordion>
+                </VBox>
+            </Group>
+        </StackPane>
+    </left>
+</BorderPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+<project>
+	<project_name>Aaron</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+<project>
+	<project_name>Ahead</project_name>
+	<minutes_spent>30</minutes_spent>
+	<price_quoted>300.0</price_quoted>
+</project>
+<project>
+	<project_name>Alpha</project_name>
+	<minutes_spent>10</minutes_spent>
+	<price_quoted>100.0</price_quoted>
+</project>
+<project>
+	<project_name>Beta</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+<project>
+	<project_name>Bolly</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+<project>
+	<project_name>Chuckle</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+<project>
+	<project_name>Delta</project_name>
+	<minutes_spent>10</minutes_spent>
+	<price_quoted>1200.0</price_quoted>
+</project>
+<project>
+	<project_name>Dolly</project_name>
+	<minutes_spent>30</minutes_spent>
+	<price_quoted>300.0</price_quoted>
+</project>
+<project>
+	<project_name>Echo</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+<project>
+	<project_name>Foxtrot</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+<project>
+	<project_name>Golf</project_name>
+	<minutes_spent>20</minutes_spent>
+	<price_quoted>200.0</price_quoted>
+</project>
+</projects>
